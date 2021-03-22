@@ -42,7 +42,9 @@ c2c.on('callEstablished', () => {
 c2c.on('callFinished', () => {
   console.log('Event: callFinished')
   if (/Android|webOS/i.test(navigator.userAgent)) {
-    
+    window.close();
+  }else{
+    window.close();
   }
 });
 
