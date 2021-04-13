@@ -23,9 +23,9 @@ let c2c = new Click2Call(sippoUri, target, config);
 c2c.on('registered', () => {
   console.log('Event: registrado')
   if (/Android|webOS/i.test(navigator.userAgent)) {
-    llamar("agentebaz1@bancoazteca.com")
+    llamar("agentebaz5@bancoazteca.com")
   }else
-    llamar("agentebaz1@bancoazteca.com")
+    llamar("agentebaz5@bancoazteca.com")
 });
 
 
