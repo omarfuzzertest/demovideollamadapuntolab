@@ -1,20 +1,20 @@
 {
-    "name": "FuzzerCorp",
-    "version": "0.0.1",
-    "description": "Servidor FuzzerCorp",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "author": "Omar Fuzzer",
-    "dependencies": {
-      "request": "*",
-      "express": "*",
-      "sync-request": "*",
-      "compression": "*",
-      "http": "*",
-      "body-parser": "*",
-      "mongoose": "*"
-    },
-    "license": "ISC"
-  }
+  "name": "FuzzerCorp",
+  "version": "0.0.1",
+  "description": "Servidor FuzzerCorp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Omar Fuzzer",
+  "dependencies": {
+    "request": "*",
+    "express": "*",
+    "sync-request": "*",
+    "compression": "*",
+    "http": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "license": "ISC"
+}

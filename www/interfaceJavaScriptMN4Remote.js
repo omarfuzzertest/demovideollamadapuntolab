@@ -101,7 +101,9 @@ const observer = new MutationObserver(callback);
 function register(){
    let anonymousDomain = '@bancoazteca.com';
 //   c2c.register(anonymousDomain)
-   c2c.register("agente2@quobis","test1234")
+
+   //c2c.register("agente2@quobis","test1234")
+   c2c.register("agentebaz4@bancoazteca.com","1Yr48EjYny")
 }
 
 function llamar(agent){
